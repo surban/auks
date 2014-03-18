@@ -12,6 +12,7 @@ config.h
 config.log
 config.status
 config.xml
+config.h.in~
 libtool
 stamp-h1
 stamp-h2
