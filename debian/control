@@ -1,0 +1,14 @@
+Source: auks
+Section: admin
+Priority: extra
+Maintainer: Sebastian Urban <surban@tum.de>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libslurm-dev
+Standards-Version: 3.9.4
+
+Package: auks
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Kerberos support for SLURM
+ AUKS provides Kerberos support for SLURM.
+
+
