@@ -19,8 +19,6 @@ stamp-h2
 autom4te.cache
 build-aux/config.guess.dh-orig
 build-aux/config.sub.dh-orig
-debian/auks.debhelper.log
-
 build-aux/config.guess
 build-aux/config.sub
 etc/init.d.auksd
