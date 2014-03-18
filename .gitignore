@@ -12,6 +12,7 @@ config.h
 config.log
 config.status
 config.xml
+config.h.in~
 libtool
 stamp-h1
 stamp-h2
@@ -26,3 +27,9 @@ etc/init.d.auksdrenewer
 etc/init.d.aukspriv
 
 debian/auks.debhelper.log
+
+src/auks/auks
+src/auksd/auksd
+src/auksd/auksdrenewer
+
+

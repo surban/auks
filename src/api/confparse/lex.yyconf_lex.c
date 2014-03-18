@@ -1,5 +1,5 @@
 
-#line 3 "conf_lex.c"
+#line 3 "lex.yyconf_lex.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -90,19 +90,19 @@ typedef unsigned int flex_uint32_t;
 #ifdef __cplusplus
 
 /* The "const" storage-class-modifier is valid. */
-#define YY_USE_CONST
+#define YY_USECONF_LEX_CONST
 
 #else	/* ! __cplusplus */
 
 /* C99 requires __STDC__ to be defined as 1. */
 #if defined (__STDC__)
 
-#define YY_USE_CONST
+#define YY_USECONF_LEX_CONST
 
 #endif	/* defined (__STDC__) */
 #endif	/* ! __cplusplus */
 
-#ifdef YY_USE_CONST
+#ifdef YY_USECONF_LEX_CONST
 #define yyconst const
 #else
 #define yyconst
@@ -137,7 +137,7 @@ typedef unsigned int flex_uint32_t;
 /* Special action meaning "start processing a new file". */
 #define YY_NEW_FILE yyrestart(yyin  )
 
-#define YY_END_OF_BUFFER_CHAR 0
+#define YY_END_OF_BUFFERCONF_LEX_CHAR 0
 
 /* Size of default input buffer. */
 #ifndef YY_BUF_SIZE
@@ -165,7 +165,7 @@ extern int yyleng;
 
 extern FILE *yyin, *yyout;
 
-#define EOB_ACT_CONTINUE_SCAN 0
+#define EOB_ACTCONF_LEX_CONTINUE_SCAN 0
 #define EOB_ACT_END_OF_FILE 1
 #define EOB_ACT_LAST_MATCH 2
 
@@ -268,14 +268,14 @@ static YY_BUFFER_STATE * yy_buffer_stack = 0; /**< Stack as an array. */
  *
  * Returns the top of the stack, or NULL.
  */
-#define YY_CURRENT_BUFFER ( (yy_buffer_stack) \
+#define YYCONF_LEX_CURRENT_BUFFER ( (yy_buffer_stack) \
                           ? (yy_buffer_stack)[(yy_buffer_stack_top)] \
                           : NULL)
 
 /* Same as previous macro, but useful when we know that the buffer stack is not
  * NULL or when we need an lvalue. For internal use only.
  */
-#define YY_CURRENT_BUFFER_LVALUE (yy_buffer_stack)[(yy_buffer_stack_top)]
+#define YYCONF_LEX_CURRENT_BUFFER_LVALUE (yy_buffer_stack)[(yy_buffer_stack_top)]
 
 /* yy_hold_char holds the character lost when yytext is formed. */
 static char yy_hold_char;
@@ -304,7 +304,7 @@ static void yyensure_buffer_stack (void );
 static void yy_load_buffer_state (void );
 static void yy_init_buffer (YY_BUFFER_STATE b,FILE *file  );
 
-#define YY_FLUSH_BUFFER yy_flush_buffer(YY_CURRENT_BUFFER )
+#define YY_FLUSH_BUFFER yy_flush_buffer(YYCONF_LEX_CURRENT_BUFFER )
 
 YY_BUFFER_STATE yy_scan_buffer (char *base,yy_size_t size  );
 YY_BUFFER_STATE yy_scan_string (yyconst char *yy_str  );
@@ -336,7 +336,7 @@ void yyfree (void *  );
 	YY_CURRENT_BUFFER_LVALUE->yy_at_bol = at_bol; \
 	}
 
-#define YY_AT_BOL() (YY_CURRENT_BUFFER_LVALUE->yy_at_bol)
+#define YY_AT_BOL() (YYCONF_LEX_CURRENT_BUFFER_LVALUE->yy_at_bol)
 
 /* Begin user sect3 */
 
@@ -541,7 +541,7 @@ void YY_BUFFER_RESET(void){
 /* lettre posant probleme dans une chaine */
 /* comment est compose un identifiant */
  
-#line 545 "conf_lex.c"
+#line 545 "lex.yyconf_lex.c"
 
 #define INITIAL 0
 #define YY_INIT 1
@@ -742,7 +742,7 @@ YY_DECL
 
 
 
-#line 746 "conf_lex.c"
+#line 746 "lex.yyconf_lex.c"
 
 	if ( !(yy_init) )
 		{
@@ -947,7 +947,7 @@ YY_RULE_SETUP
 #line 99 "conf_lex.l"
 ECHO;
 	YY_BREAK
-#line 951 "conf_lex.c"
+#line 951 "lex.yyconf_lex.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(YY_INIT):
 case YY_STATE_EOF(BLOC):
