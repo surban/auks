@@ -16,6 +16,9 @@ AM_INIT_AUTOMAKE([-Wall -Werror])
 dnl Autoconf header file to generate
 AC_CONFIG_HEADERS([config.h])
 
+dnl Fix
+AM_PROG_AR
+
 dnl In order to build lib using Autotools .la format
 AC_PROG_LIBTOOL
 
