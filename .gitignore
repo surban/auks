@@ -26,10 +26,15 @@ etc/init.d.auksd
 etc/init.d.auksdrenewer
 etc/init.d.aukspriv
 
-debian/auks.debhelper.log
-
 src/auks/auks
 src/auksd/auksd
 src/auksd/auksdrenewer
+
+debian/auks.debhelper.log
+debian/auks.postinst.debhelper
+debian/auks.postrm.debhelper
+debian/auks.substvars
+debian/auks
+debian/files
 
 
