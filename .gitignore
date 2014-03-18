@@ -26,3 +26,6 @@ etc/init.d.auksd
 etc/init.d.auksdrenewer
 etc/init.d.aukspriv
 
+src/auks/auks
+src/auksd/auksd
+src/auksd/auksdrenewer
